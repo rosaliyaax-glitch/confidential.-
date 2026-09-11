@@ -48,3 +48,14 @@ h2:first-of-type {
     letter-spacing: 1px;
     color: #52665c;
 }
+.official-button {
+    background-color: #2f5d50;
+    color: #f5f1e8;
+    border: none;
+    padding: 12px 24px;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
