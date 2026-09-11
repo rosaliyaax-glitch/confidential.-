@@ -4,16 +4,16 @@ body {
     font-family: Georgia, serif;
     text-align: center;
     margin: 40px;
-}
-body {
-    background-color: #f5f1e8;
-    color: #26352d;
-    font-family: Georgia, serif;
-    text-align: center;
-    margin: 40px;
     border: 4px double #2f5d50;
     padding: 40px;
 }
+
+hr {
+    border: none;
+    border-top: 1px solid #8ba99b;
+    margin: 40px 0;
+}
+
 h1 {
     color: #2f5d50;
     font-size: 42px;
@@ -24,17 +24,18 @@ h1 {
 h2 {
     color: #3f765f;
     font-size: 28px;
-}
-h2 {
-    color: #3f765f;
-    font-size: 28px;
+    margin-top: 20px;
 }
 
-h2:first-of-type {
-    font-size: 34px;
+h3 {
     color: #23483b;
-    letter-spacing: 1px;
 }
+
+.cover {
+    padding: 30px;
+    border-bottom: 1px solid #8ba99b;
+}
+
 #status {
     display: inline-block;
     border: 2px solid #2f5d50;
@@ -43,11 +44,13 @@ h2:first-of-type {
     font-weight: bold;
     letter-spacing: 1px;
 }
+
 .details {
     font-size: 14px;
     letter-spacing: 1px;
     color: #52665c;
 }
+
 .official-button {
     background-color: #2f5d50;
     color: #f5f1e8;
@@ -58,14 +61,44 @@ h2:first-of-type {
     cursor: pointer;
     border-radius: 6px;
 }
-.cover {
+
+section {
+    max-width: 700px;
+    margin: 40px auto;
     padding: 30px;
-    border-bottom: 1px solid #8ba99b;
-}
-.record {
-    margin: 30px auto;
-    padding: 25px;
     border: 1px solid #8ba99b;
-    max-width: 600px;
     background-color: #faf8f1;
+}
+
+ul {
+    text-align: left;
+    max-width: 500px;
+    margin: 20px auto;
+    line-height: 1.8;
+}
+
+audio {
+    width: 80%;
+    max-width: 500px;
+    margin: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #8ba99b;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+section div {
+    margin: 25px auto;
+}
+
+button {
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
 }
