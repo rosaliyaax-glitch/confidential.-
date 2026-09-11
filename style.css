@@ -62,4 +62,10 @@ h2:first-of-type {
     padding: 30px;
     border-bottom: 1px solid #8ba99b;
 }
-
+.record {
+    margin: 30px auto;
+    padding: 25px;
+    border: 1px solid #8ba99b;
+    max-width: 600px;
+    background-color: #faf8f1;
+}
