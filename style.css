@@ -58,4 +58,8 @@ h2:first-of-type {
     cursor: pointer;
     border-radius: 6px;
 }
+.cover {
+    padding: 30px;
+    border-bottom: 1px solid #8ba99b;
+}
 
