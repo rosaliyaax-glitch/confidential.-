@@ -35,3 +35,16 @@ h2:first-of-type {
     color: #23483b;
     letter-spacing: 1px;
 }
+#status {
+    display: inline-block;
+    border: 2px solid #2f5d50;
+    padding: 10px 20px;
+    color: #2f5d50;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.details {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #52665c;
+}
